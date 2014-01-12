@@ -11,7 +11,7 @@
 <head>
 	<?php echo $this->html->charset();?>
 	<title>Application &gt; <?php echo $this->title(); ?></title>
-	<?php echo $this->html->style(array('bootstrap.min', 'lithified')); ?>
+	<?php echo $this->html->style(array('/framework/app/webroot/css/bootstrap.min', '/framework/app/webroot/css/lithified')); ?>
 	<?php echo $this->scripts(); ?>
 	<?php echo $this->styles(); ?>
 	<?php echo $this->html->link('Icon', null, array('type' => 'icon')); ?>

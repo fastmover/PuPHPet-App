@@ -85,6 +85,7 @@ php:
     ini:
         display_errors: On
         error_reporting: '-1'
+        short_open_tag: Off
         session.save_path: /var/lib/php/session
     timezone: America/Chicago
 xdebug:
