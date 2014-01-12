@@ -58,7 +58,9 @@ apache:
         - rewrite
     vhosts:
         SrutRquifJ83:
-            servername: phpapp.dev
+            servername: test.phpapp.com
+            serveraliases:
+              - www.test.phpapp.com
             docroot: /var/www/
             port: '80'
             setenv:
